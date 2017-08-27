@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php the_field("site_title") ?></title>
+    <title>Amateur Swami Demo</title>
 
     <!-- Bootstrap CSS -->
 
-    <link href="<?php bloginfo('template_directory'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts -->
-    <link href="<?php bloginfo('template_directory'); ?>/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -24,17 +24,17 @@
     <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="<?php bloginfo('template_directory'); ?>/css/agency.css" rel="stylesheet">
-    <link href="<?php bloginfo('template_directory'); ?>/css/agency.min.css" rel="stylesheet">
+    <link href="/css/agency.css" rel="stylesheet">
+    <link href="/css/agency.min.css" rel="stylesheet">
 
-    <?php wp_head(); ?>
+
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <a class="navbar-brand" href="#page-top"><?php the_field("brand") ?></a>
+      <a class="navbar-brand" href="#page-top">Amateur Swami Demo</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -42,19 +42,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#services"><?php the_field("menu_1") ?></a>
+            <a class="nav-link" href="#services">Menu 1</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio"><?php the_field("menu_2") ?></a>
+            <a class="nav-link" href="#portfolio">Menu 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about"><?php the_field("menu_3") ?></a>
+            <a class="nav-link" href="#about">Menu 3</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#team"><?php the_field("menu_4") ?></a>
+            <a class="nav-link" href="#team">Menu 4</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact"><?php the_field("menu_5") ?></a>
+            <a class="nav-link" href="#contact">Menu 5</a>
           </li>
         </ul>
       </div>
@@ -64,10 +64,9 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in"><?php the_field("home_page_intro_top_text") ?></div>
-          <div class="intro-heading"><?php the_field("home_page_intro_text_line_2") ?></div>
-          <a class="btn btn-xl" href="<?php the_field("home_page_intro_button_link") ?>">
-            <?php the_field("home_page_intro_text_button_text") ?></a>
+          <div class="intro-lead-in">Homepage Intro Text</div>
+          <div class="intro-heading">Homepage Header</div>
+          <a class="btn btn-xl" href="#services">Button Text</a>
         </div>
       </div>
     </header>
@@ -77,8 +76,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><?php the_field("section_1_header") ?></h2>
-            <h3 class="section-subheading text-muted"><?php the_field("section_1_subheader") ?></h3>
+            <h2 class="section-heading">Section 1 Header</h2>
+            <h3 class="section-subheading text-muted">Section 1 Subheader</h3>
           </div>
         </div>
         <div class="row text-center">
@@ -87,24 +86,24 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading"><?php the_field("offering_1") ?></h4>
-            <p class="text-muted"><?php the_field("offering_1_description") ?></p>
+            <h4 class="service-heading">Offering 1</h4>
+            <p class="text-muted">Offering 1 Description</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading"><?php the_field("offering_2") ?></h4>
-            <p class="text-muted"><?php the_field("offering_2_description") ?></p>
+            <h4 class="service-heading">Offering 2</h4>
+            <p class="text-muted">Offering 2 Description</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading"><?php the_field("offering_3") ?></h4>
-            <p class="text-muted"><?php the_field("offering_3_description") ?></p>
+            <h4 class="service-heading">Offering 3</h4>
+            <p class="text-muted">Offering 3 Description</p>
           </div>
         </div>
       </div>
@@ -115,8 +114,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><?php the_field("section_2_header") ?></h2>
-            <h3 class="section-subheading text-muted"><?php the_field("section_2_subheader") ?></h3>
+            <h2 class="section-heading">Section 2 Header</h2>
+            <h3 class="section-subheading text-muted">Section 2 Subheader</h3>
           </div>
         </div>
         <div class="row">
@@ -130,8 +129,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/01-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_1") ?></h4>
-              <p class="text-muted"><?php the_field("skill_1_description") ?></p>
+              <h4>Skill 1</h4>
+              <p class="text-muted">Skill 1 Description</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -144,8 +143,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/02-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_2") ?></h4>
-              <p class="text-muted"><?php the_field("skill_2_description") ?></p>
+              <h4>Skill 2</h4>
+              <p class="text-muted">Skill 2 Description</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -158,8 +157,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/03-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_3") ?></h4>
-              <p class="text-muted"><?php the_field("skill_3_description") ?></p>
+              <h4>Skill 3</h4>
+              <p class="text-muted">Skill 3 Description</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -172,8 +171,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/04-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_4") ?></h4>
-              <p class="text-muted"><?php the_field("skill_4_description") ?></p>
+              <h4>Skill 4</h4>
+              <p class="text-muted">Skill 4 Description</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -186,8 +185,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/05-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_5") ?></h4>
-              <p class="text-muted"><?php the_field("skill_5_description") ?></p>
+              <h4>Skill 5</h4>
+              <p class="text-muted">Skill 5 Description</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -200,8 +199,8 @@
               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/portfolio/06-thumbnail.jpg" alt="">
             </div>
             <div class="portfolio-caption">
-              <h4><?php the_field("skill_6") ?></h4>
-              <p class="text-muted"><?php the_field("skill_6_description") ?></p>
+              <h4>Skill 6</h4>
+              <p class="text-muted">Skill 6 Description</p>
             </div>
           </div>
         </div>
@@ -213,9 +212,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><?php the_field("section_3_header") ?></h2>
-            <h3 class="section-subheading text-muted"><?php the_field("section_3_subheader") ?></h3>
-              <div class="embed-container"><?php the_field('oembed'); ?>
+            <h2 class="section-heading">Section 3 Header</h2>
+            <h3 class="section-subheading text-muted">Section 3 Subheader</h3>
+              <div class="embed-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HKd2MOn-soc" frameborder="0" allowfullscreen></iframe>
               <style>
               	.embed-container {
               		position: relative;
@@ -247,29 +247,29 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><?php the_field("section_4_header") ?></h2>
-            <h3 class="section-subheading text-muted"><?php the_field("section_4_subheader") ?></h3>
+            <h2 class="section-heading">Section 4 Header</h2>
+            <h3 class="section-subheading text-muted">Section 4 Subheader</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="<?php bloginfo('template_directory'); ?>/img/team/1.jpg" alt="">
-              <h4><?php the_field("team_member_1") ?></h4>
-              <p class="text-muted"><?php the_field("title_1") ?></p>
+              <h4>Team Member 1</h4>
+              <p class="text-muted">Title 1</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="<?php the_field("twitter_1") ?>">
+                  <a href="http://www.twitter.com">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("facebook_1") ?>">
+                  <a href="http://www.facebook.com">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("linkedin_1") ?>">
+                  <a href="http://www.linkedin.com">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -279,21 +279,21 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="<?php bloginfo('template_directory'); ?>/img/team/2.jpg" alt="">
-              <h4><?php the_field("team_member_2") ?></h4>
-              <p class="text-muted"><?php the_field("title_2") ?></p>
+              <h4>Team Member 2</h4>
+              <p class="text-muted">Title 2</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="<?php the_field("twitter_2") ?>">
+                  <a href="http://www.twitter.com">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("facebook_2") ?>">
+                  <a href="http://www.facebook.com">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("linkedin_2") ?>">
+                  <a href="http://www.linkedin.com">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -303,21 +303,21 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="<?php bloginfo('template_directory'); ?>/img/team/3.jpg" alt="">
-              <h4><?php the_field("team_member_3") ?></h4>
-              <p class="text-muted"><?php the_field("title_3") ?></p>
+              <h4>Team Member 3</h4>
+              <p class="text-muted">Title 3</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="<?php the_field("twitter_3") ?>">
+                  <a href="http://www.twitter.com">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("facebook_3") ?>">
+                  <a href="http://www.facebook.com">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="<?php the_field("linkedin_3") ?>">
+                  <a href="http://www.linkedin.com">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -327,7 +327,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted"><?php the_field("section_4_description") ?></p>
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
           </div>
         </div>
       </div>
@@ -339,8 +339,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading"><?php the_field("section_5_header") ?></h2>
-            <h3 class="section-subheading text-muted"><?php the_field("section_5_subheader") ?></h3>
+            <h2 class="section-heading">Section 5 Header</h2>
+            <h3 class="section-subheading text-muted">Section 5 Subheader</h3>
           </div>
         </div>
         <div class="row">
@@ -370,7 +370,7 @@
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button class="btn btn-xl" type="submit"><?php the_field("section_5_button_text") ?></button>
+                  <button class="btn btn-xl" type="submit">Button Text</button>
                 </div>
               </div>
             </form>
@@ -389,17 +389,17 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="<?php the_field("twitter") ?>">
+                <a href="http://www.twitter.com">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="<?php the_field("facebook") ?>">
+                <a href="http://www.facebook.com">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="<?php the_field("linkedin") ?>">
+                <a href="http://www.linkedin.com">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
@@ -408,10 +408,10 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="<?php the_field("link_1") ?>"><?php the_field("link_1_name") ?></a>
+                <a href="<?php the_field("link_1") ?>">Link 1</a>
               </li>
               <li class="list-inline-item">
-                <a href="<?php the_field("link_2") ?>"><?php the_field("link_2_name") ?></a>
+                <a href="<?php the_field("link_2") ?>">Link 2</a>
               </li>
             </ul>
           </div>
@@ -435,14 +435,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_1_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_1_project_subhead") ?></p>
+                  <h2>Project Modal 1 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 1 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/01-full.jpg" alt="">
-                  <p><?php the_field("modal_1_project_description") ?></p>
+                  <p>Project Modal 1 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_1_date") ?></li>
-                    <li><?php the_field("modal_1_client") ?></li>
-                    <li><?php the_field("modal_1_category") ?></li>
+                    <li>Modal 1 Date</li>
+                    <li>Modal 1 Client</li>
+                    <li>Modal 1 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -469,14 +469,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_2_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_2_project_subhead") ?></p>
+                  <h2>Project Modal 2 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 2 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/02-full.jpg" alt="">
-                  <p><?php the_field("modal_2_project_description") ?></p>
+                  <p>Project Modal 2 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_2_date") ?></li>
-                    <li><?php the_field("modal_2_client") ?></li>
-                    <li><?php the_field("modal_2_category") ?></li>
+                    <li>Modal 2 Date</li>
+                    <li>Modal 2 Client</li>
+                    <li>Modal 2 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -503,14 +503,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_3_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_3_project_subhead") ?></p>
+                  <h2>Project Modal 3 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 3 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/03-full.jpg" alt="">
-                  <p><?php the_field("modal_3_project_description") ?></p>
+                  <p>Project Modal 3 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_3_date") ?></li>
-                    <li><?php the_field("modal_3_client") ?></li>
-                    <li><?php the_field("modal_3_category") ?></li>
+                    <li>Modal 3 Date</li>
+                    <li>modal 3 Client</li>
+                    <li>Modal 3 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -537,14 +537,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_4_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_4_project_subhead") ?></p>
+                  <h2>Project Modal 4 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 4 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/04-full.jpg" alt="">
-                  <p><?php the_field("modal_4_project_description") ?></p>
+                  <p>Project Modal 4 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_4_date") ?></li>
-                    <li><?php the_field("modal_4_client") ?></li>
-                    <li><?php the_field("modal_4_category") ?></li>
+                    <li>Modal 4 Date</li>
+                    <li>Modal 4 Client</li>
+                    <li>Modal 4 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -571,14 +571,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_5_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_5_project_subhead") ?></p>
+                  <h2>Project Modal 5 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 5 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/05-full.jpg" alt="">
-                  <p><?php the_field("modal_5_project_description") ?></p>
+                  <p>Project Modal 5 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_5_date") ?></li>
-                    <li><?php the_field("modal_5_client") ?></li>
-                    <li><?php the_field("modal_5_category") ?></li>
+                    <li>Modal 5 Date</li>
+                    <li>Modal 5 client</li>
+                    <li>Modal 5 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -605,14 +605,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2><?php the_field("modal_6_project_name") ?></h2>
-                  <p class="item-intro text-muted"><?php the_field("modal_6_project_subhead") ?></p>
+                  <h2>Project Modal 6 Header</h2>
+                  <p class="item-intro text-muted">Project Modal 6 Subheader</p>
                   <img class="img-fluid d-block mx-auto" src="<?php bloginfo('template_directory'); ?>/img/portfolio/05-full.jpg" alt="">
-                  <p><?php the_field("modal_6_project_description") ?></p>
+                  <p>Project Modal 6 Description</p>
                   <ul class="list-inline">
-                    <li><?php the_field("modal_6_date") ?></li>
-                    <li><?php the_field("modal_6_client") ?></li>
-                    <li><?php the_field("modal_6_category") ?></li>
+                    <li>Modal 6 Date</li>
+                    <li>Modal 6 Client</li>
+                    <li>Modal 6 Category</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -626,19 +626,19 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="<?php bloginfo('template_directory'); ?>/vendor/jquery/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/vendor/popper/popper.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/popper/popper.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="<?php bloginfo('template_directory'); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="<?php bloginfo('template_directory'); ?>/js/jqBootstrapValidation.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/contact_me.js"></script>
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="<?php bloginfo('template_directory'); ?>/js/agency.min.js"></script>
+    <script src="/js/agency.min.js"></script>
 
   </body>
 </html>
